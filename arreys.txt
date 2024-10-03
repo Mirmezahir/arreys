@@ -1,0 +1,81 @@
+
+TASK1
+int[] ededler = { 13, 14, 26, 78 };
+int hasil = 1;
+for (int i = 0; i < ededler.Length; i++)
+{
+
+    if (ededler[i] % 2 == 0)
+    {
+        hasil *= ededler[i];
+
+
+    }
+}
+Console.WriteLine(hasil);
+
+
+TASK 2
+int[] ededler = { 13, 14, 26, 78 };
+int hasil = 1;
+for (int i = 0; i < ededler.Length; i++)
+{
+
+    if (ededler[i] % 2 == 0)
+    {
+        hasil += ededler[i];
+
+
+    }
+}
+Console.WriteLine(hasil);
+
+//TASK3
+string[] miri = { "necesen", "sagol" };
+string[] miri2 = { "salam", "necesen" };
+for (int i = 0; i < miri.Length; i++)
+{
+    for (int j = 0; j < miri2.Length; j++)
+    {
+        if (miri[i] == miri2[j])
+        {
+            Console.WriteLine(miri[i]);
+        }
+
+    }
+
+}
+
+Task4
+int[] miri = { 1, 2, 3 };
+int[] miri2 = { 1, 2, 3 };
+int hasil = 1;
+for (int i = 0; i < miri.length; i++)
+{
+    for (int j = 0; j < miri2.length; j++)
+    {
+        hasil = miri2[j] * miri[i];
+        console.writeline(hasil);
+    }
+}
+
+
+Task5
+string[] sozler = { "SOZ", "CUMLE", "METN" };
+for (int i = 0; i < sozler.Length; i++)
+{
+    Console.WriteLine("");
+    for (int j = sozler[i].Length - 1; j >= 0; j--)
+    {
+        Console.Write(sozler[i][j]);
+    }
+
+}
+
+TASK6
+string[] sozler = { "soz", "cumle", "metn" };
+for (int j = sozler.Length - 1; j >= 0; j--)
+{
+    Console.WriteLine(sozler[j]);
+}
+
